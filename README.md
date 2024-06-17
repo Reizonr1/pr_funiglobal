@@ -35,18 +35,6 @@ FOREIGN KEY (product_id) REFERENCES products(product_id),
 FOREIGN KEY (image_id) REFERENCES images(image_id)
 );
 
-COMPANY
-
-Funiglobal Development S.L.
-
-Page 3 of 7
-
-DOCUMENT PRUEBA TÉCNICA - IT DEVELOPER JUNIOR
-MODIFIED 17/06/2024 17:30
-
-Funiglobal
-V1.0 - 10/06/2024
-
 -- Inserciones
 INSERT INTO products (product_name, description, price, stock) VALUES
 ('Producto 1', 'Descripción del producto 1', 10.00, 100),
